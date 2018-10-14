@@ -22,6 +22,7 @@ public class VertexReading {
 	@SuppressWarnings("static-access")
 	public int createShaderProgram() {
 		gl = (GL4) GLContext.getCurrentGL();
+		
 		int[] vertCompiled = new int[1];
 		int[] fragCompiled = new int[1];
 		int[] linked = new int[1];
